@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    background-color: rgb(205, 180, 146);
+    color: white;
+    
+}
+.contact{
+    display: flex;
+}
+.header>p{
+font-size: small;
+}
+.header>.contact>p{
+font-size: small;
+}
+.header>.contact>i{
+    font-size: small;
+    margin-top: 0.8rem;
+    margin-right: 0.2rem;
+}
+.header>.icons>i{
+    font-size: small;
+    margin-top: 0.8rem;
+    margin-right: 0.2rem;
+    
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    background-color: white;
+    padding: 1rem ;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+
+}
+.navBar>i{
+    font-size: xx-large ;
+    color: rgb(112, 168, 173);
+    margin-top: 0.5rem;
+}
+.cart{
+    display: flex;
+}
+.navBar>.cart>i{
+    margin-top: 1rem;
+    margin-right: 0.4rem;
+}
+
+.search{
+    width: 40%;
+    position: relative;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.searchtext{
+    width: 100%;
+    border: 3px solid rgb(248, 122, 37);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color: black;
+}
+.searchbtn{
+    width: 40px;
+    height: 35px;
+    border: 4px solid rgb(248, 122, 37);
+    background: rgb(248, 122, 37);
+    text-align: center;
+    color:white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0 40% 40% 0;
+}
+.popup{
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    padding: 0.4rem;
+}
+.popup>h4{
+    margin-left: 35%;
+    margin-top: 0;
+}
+.popup>button{
+    margin-left: 45%;
+    border: none;
+    border-radius: 9px;
+    padding: 0.4rem;
+    background-color: white;
+    color: rgb(222, 123, 17);
+}
+
+
+/* signup  */
+.newsletter{
+    width: 100%;
+    height: 180px;
+    background-color: #0C84D9;
+    margin-top: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+.newsletter>h3{
+    margin-left: 40%;
+}
+.newsletter>h6{
+    margin-left: 36%;
+}
+.signup{
+    margin-left: 45%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+/* footer */
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #ccc;
+    
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo>i{
+    font-size: larger;
+    color: #0C84D9;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    
+}
+.cardArea{
+    margin-left: 40px;
+    width: 600px;
+    border: 1px solid black;
+}
